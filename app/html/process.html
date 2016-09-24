@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Process Images</title>
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/process.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="process">
+      <div class="body">
+        <div class="preview">
+          <h2>Preview</h2>
+          <img alt="Image Preview" />
+          <ul>
+            <li>
+              Name: <span id="name"></span>
+            </li>
+            <li>
+              Dimensions: <span id="width"></span>px x <span id="height"></span>px
+            </li>
+          </ul>
+        </div>
+        <div class="sizes">
+          <h2>Widths</h2>
+          <ul>
+          </ul>
+          <button type="button" id="add">Add Width</button>
+        </div>
+      </div>
+      <div class="bottom_bar">
+        <button type="button" id="cancel" class="cancel">Cancel</button>
+        <button id="resize">Resize</button>
+      </div>
+    </div>
+  </body>
+  <script src="../js/global.js"></script>
+  <script src="../js/process.js"></script>
+</html>

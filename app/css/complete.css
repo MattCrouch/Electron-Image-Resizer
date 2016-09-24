@@ -1,0 +1,24 @@
+.complete-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.complete {
+    width: 100%;
+    padding: 10%;
+}
+
+#srcset {
+    width: 100%;
+    color: currentColor;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    resize: none;
+    margin: 2em 0;
+    padding: 1em;
+    border: 0.25em dashed currentColor;
+}

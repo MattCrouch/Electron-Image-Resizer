@@ -1,0 +1,25 @@
+.drop-target-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Alte Haas Grotesk", Arial, sans-serif;
+}
+
+.drop-target {
+    text-align: center;
+    margin: 10vw;
+    width: 100vw;
+    padding: 20vh 5vw;
+    border: 0.5rem dashed currentColor;
+    border-radius: 1rem;
+    font-size: 3rem;
+}
+
+.drop-target.droppable {
+    color: var(--action-color);
+}
+
+.drop-target.not-droppable {
+    color: var(--unavailable-color);
+}
