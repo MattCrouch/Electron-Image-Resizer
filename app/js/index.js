@@ -42,7 +42,6 @@
     //Listen for files dragging onto application
     dropTarget.addEventListener("dragenter", e => {
         if(checkCanDrop(e.dataTransfer)) {
-            e.preventDefault();
             applyCanDropStyle(dropTarget);
         } else {
             applyCannotDropStyle(dropTarget);        
@@ -54,7 +53,6 @@
 
     //Listen for file drop
     dropTarget.addEventListener("drop", e => {
-        e.preventDefault();
         clearDropStyles(dropTarget);
 
         if(checkCanDrop(e.dataTransfer)) {
