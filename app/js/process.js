@@ -90,6 +90,8 @@
         li.querySelector(".remove").addEventListener("click", removeListItem);
 
         sizeList.appendChild(li);
+
+        li.querySelector("input").focus();
     }
 
     //Remove width from the list
