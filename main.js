@@ -11,7 +11,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 700, height: 525, show: false, backgroundColor: "rgb(250,250,250)"});
 
   //Only show window once all processes are ready to go
-  mainWindow.once('ready-to-show', () => {
+  mainWindow.once("ready-to-show", () => {
     mainWindow.show()
   });
 

@@ -109,7 +109,7 @@
 
         for(let i = 0; i < sizeInputs.length; i++) {
             if(!sizeInputs[i].validity.valid) {
-                !sizeInputs[i].focus();
+                sizeInputs[i].focus();
                 alertHandler("Make sure all sizes are valid");
                 return false;
             }
